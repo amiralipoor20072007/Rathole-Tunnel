@@ -150,7 +150,7 @@ download_and_extract_rathole() {
         exit 1
     fi
     if [[ "$ARCH" == "x86_64" ]]; then
-    	DOWNLOAD_URL='https://github.com/Musixal/rathole-tunnel/raw/main/rathole.zip'
+    	DOWNLOAD_URL='https://github.com/amiralipoor20072007/rathole-tunnel/raw/main/rathole.zip'
     fi
 
     if [ -z "$DOWNLOAD_URL" ]; then
@@ -197,7 +197,7 @@ ____________ _/  |_|  |__   ____ |  |   ____
 EOF
     echo -e "${NC}${GREEN}"
     echo -e "Version: ${YELLOW}v2.0${GREEN}"
-    echo -e "Github: ${YELLOW}github.com/Musixal/Rathole-Tunnel${GREEN}"
+    echo -e "Github: ${YELLOW}github.com/amiralipoor20072007/Rathole-Tunnel${GREEN}"
     echo -e "Telegram Channel: ${YELLOW}@Gozar_Xray${NC}"
 }
 
@@ -1101,7 +1101,7 @@ update_script(){
 # Define the destination path
 DEST_DIR="/usr/bin/"
 RATHOLE_SCRIPT="rathole"
-SCRIPT_URL="https://github.com/Musixal/rathole-tunnel/raw/main/rathole_v2.sh"
+SCRIPT_URL="https://github.com/amiralipoor20072007/rathole-tunnel/raw/main/rathole_v2.sh"
 
 echo
 # Check if rathole.sh exists in /bin/bash
